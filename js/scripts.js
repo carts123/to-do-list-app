@@ -1,4 +1,4 @@
-function newitem() {
+function newItem() {
 
 // Adding a new item to the list of items:
 let li = $('<li></li>');
@@ -28,7 +28,7 @@ let crossOutButton = $('<crossOutButton></crossOutButton>'); //why is it an open
   crossOutButton.on('click',deleteListItem);
 
   function deleteListItem() {
-    li.addCLass('delete');
+    li.addClass('delete');
   }
 
 //Items can be resorted
